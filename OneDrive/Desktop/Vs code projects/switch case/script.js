@@ -33,13 +33,13 @@
 // var amal = prompt("Amalni yozing").trim().toLowerCase();
 // alert(eval(amal));
 
-var amal =  prompt("Amalni yozing ").trim();
+var amal = prompt("Amalni yozing ").trim();
 
 var res = amal.split(" ");
 
-var a = Number(res[0]);
+var a = +res[0];     // Number(res[0]) o‘rniga
 var oper = res[1];
-var b = Number(res[2]);
+var b = +res[2];     // Number(res[2]) o‘rniga
 
 switch (oper) {
     case "+":
