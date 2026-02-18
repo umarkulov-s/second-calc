@@ -37,9 +37,9 @@ var amal = prompt("Amalni yozing ").trim();
 
 var res = amal.split(" ");
 
-var a = +res[0];     // Number(res[0]) o‘rniga
+var a = +res[0];     
 var oper = res[1];
-var b = +res[2];     // Number(res[2]) o‘rniga
+var b = +res[2];     
 
 switch (oper) {
     case "+":
